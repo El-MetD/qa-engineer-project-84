@@ -185,3 +185,102 @@
     - Выбрать тип подключения Offline
   expected-result: |
     Страница выводит сообщение об отсутсвии соединения с интернетом
+
+- summary: |
+    Проверка безопасности
+  requirement: |
+    Проверка сайта на наличие уязвимостей и подвержению атакам 
+  prerequisites:
+    Компьютер с доступом в интернет
+  test-data: |
+    Сайт = https://hexlet-products-store.vercel.app/
+    Атака = <script>alert('Я отправил вам скрипт! Пришлите денег, пожалуйста :(')</script>
+  steps:
+    - Открыть формы ввода
+    - Ввести скрипт
+  expected-result: |
+    Сайт не реагирует на сообщение
+
+- summary: |
+    Cовместимост с Google Chrome 125
+  requirement: |
+    Проверка совместимости сайта с Google Chrome 125
+  prerequisites:
+    Компьютер с доступом в интернет, браузер Google Chrome версии 125
+  test-data: |
+    Сайт = https://hexlet-products-store.vercel.app/    
+  steps:
+    - Открыть браузер
+    - Ввести URL сайта
+  expected-result: |
+    Элементы страницы не должны переноситься, исчезать, менять свою ширину. Все интерактивные элементы должны адекватно работать
+
+- summary: |
+    Cовместимост с Google Chrome 124
+  requirement: |
+    Проверка совместимости сайта с Google Chrome 124
+  prerequisites:
+    Компьютер с доступом в интернет, браузер Google Chrome версии 124
+  test-data: |
+    Сайт = https://hexlet-products-store.vercel.app/    
+  steps:
+    - Открыть браузер
+    - Ввести URL сайта
+  expected-result: |
+    Элементы страницы не должны переноситься, исчезать, менять свою ширину. Все интерактивные элементы должны адекватно работать
+
+- summary: |
+    Cовместимост с Safari 17.5
+  requirement: |
+    Проверка совместимости сайта с Safari 17.5
+  prerequisites:
+    Компьютер с доступом в интернет, браузер Safari версии 17.5
+  test-data: |
+    Сайт = https://hexlet-products-store.vercel.app/    
+  steps:
+    - Открыть браузер
+    - Ввести URL сайта
+  expected-result: |
+    Элементы страницы не должны переноситься, исчезать, менять свою ширину. Все интерактивные элементы должны адекватно работать
+
+- summary: |
+    Cовместимост с Safari 17.4
+  requirement: |
+    Проверка совместимости сайта с Safari 17.4
+  prerequisites:
+    Компьютер с доступом в интернет, браузер Safari версии 17.4
+  test-data: |
+    Сайт = https://hexlet-products-store.vercel.app/    
+  steps:
+    - Открыть браузер
+    - Ввести URL сайта
+  expected-result: |
+    Элементы страницы не должны переноситься, исчезать, менять свою ширину. Все интерактивные элементы должны адекватно работать
+
+- summary: |
+    Cовместимост с Firefox 126
+  requirement: |
+    Проверка совместимости сайта с Firefox 126
+  prerequisites:
+    Компьютер с доступом в интернет, браузер Firefox версии 126
+  test-data: |
+    Сайт = https://hexlet-products-store.vercel.app/    
+  steps:
+    - Открыть браузер
+    - Ввести URL сайта
+  expected-result: |
+    Элементы страницы не должны переноситься, исчезать, менять свою ширину. Все интерактивные элементы должны адекватно работать
+
+- summary: |
+    Cовместимост с Firefox 125
+  requirement: |
+    Проверка совместимости сайта с Firefox 125
+  prerequisites:
+    Компьютер с доступом в интернет, браузер Firefox версии 125
+  test-data: |
+    Сайт = https://hexlet-products-store.vercel.app/    
+  steps:
+    - Открыть браузер
+    - Ввести URL сайта
+  expected-result: |
+    Элементы страницы не должны переноситься, исчезать, менять свою ширину. Все интерактивные элементы должны адекватно работать
