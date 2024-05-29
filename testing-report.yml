@@ -1,148 +1,140 @@
 ---
 - summary: |
-    Краткое описание тест-кейса. Например, проверка входа пользователя с существующими логином и паролем
-  status: fail
-
-- summary: |
-    Краткое описание тест-кейса. Например, проверка входа пользователя с существующими логином и паролем
-  status: pass
-  
-- summary: |
     Проверка поиска товара по ключевому слову
-  status:
+  status: pass
 
 - summary: |
     Проверка поиска товара по категории
-  status:
+  status: pass
   
 - summary: |
     Проверка фильтрации товаров по одному бренду
-  status:
+  status: pass
   
 - summary: |
     Проверка фильтрации товаров по цене
-  status:
+  status: pass
   
 - summary: |
     Проверка фильтрации товаров по двум брендам и по цене
-  status:
+  status: pass
   
 - summary: |
     Проверка наличия мобильной версии
-  status:
+  status: fail
   
 - summary: |
     Просмотр товаров на странице
-  status:
+  status: pass
   
 - summary: |
     Просмотр подробной информации о товаре
-  status:
+  status: pass
   
 - summary: |
     Просмотр корзины
-  status:
+  status: pass
   
 - summary: |
     Удобство использования
-  status:
+  status: pass
   
 - summary: |
     Проверка скорости работы
-  status:
+  status: pass
   
 - summary: |
     Вывод сообщения при отсутствии подключения к сети
-  status:
+  status: fail
   
 - summary: |
     Проверка безопасности
-  status:
+  status: fail
   
 - summary: |
     Cовместимость с Google Chrome 125
-  status:  
+  status:  pass
   
 - summary: |
     Cовместимость с Google Chrome 124
-  status:
+  status: pass
   
 - summary: |
     Cовместимость с Safari 17.5
-  status:
+  status: pass
   
 - summary: |
-    Cовместимость с Safari 17.4
-  status:
+    Cовместимость с Safari 17.3
+  status: pass
   
 - summary: |
     Cовместимость с Firefox 126
-  status:
+  status: pass
   
 - summary: |
     Cовместимость с Firefox 125
-  status:
+  status: pass
   
 - summary: |
     Доступность на смартфоне iPhone 14 Pro Max
-  status:
+  status: fail
   
 - summary: |
     Доступность на планшете iPad Pro
-  status:
+  status: pass
   
 - summary: |
     Форма регистрации
-  status:
+  status: fail
   
 - summary: |
     Успешная регистрация пользователя
-  status:
+  status: fail
   
 - summary: |
     Короткое имя пользователя
-  status:
+  status: fail
   
 - summary: |
     Слишком длинное имя пользователя
-  status:
+  status: fail
   
 - summary: |
     Проверка пароля
-  status:
+  status: fail
   
 - summary: |
     Проверка совпадает ли пароли и подтверджение пароля
-  status:
+  status: fail
   
 - summary: |
     Форма регистрации, ввод с ошибкой, страница не перезагружается
-   status:
+   status: fail
    
 - summary: |
     Форма входа
-  status:
+  status: fail
   
 - summary: |
     Успешный вход пользователя
-  status:
+  status: fail
   
 - summary: |
     Форма входа, ввод с ошибкой
-  status:
+  status: fail
   
 - summary: |
     Форма входа, ввод с ошибкой, страница не перезагружается
-  status:
+  status: fail
   
 - summary: |
     Запоминать авторизованного пользователя
-  status:
+  status: fail
   
 - summary: |
     Выбор всех категорий/отмена выбранной категории
-  status:
+  status: fail
   
 - summary: |
     Выбор количества  товара в корзине
-  status:
+  status: fail
