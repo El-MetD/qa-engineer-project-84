@@ -20,10 +20,6 @@
   status: pass
   
 - summary: |
-    Проверка наличия мобильной версии
-  status: fail
-  
-- summary: |
     Просмотр товаров на странице
   status: pass
   
