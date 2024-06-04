@@ -1,1 +1,152 @@
+---
+test-cases:
+  - summary: |
+      Проверка поиска товара по ключевому слову
+    status: pass
 
+  - summary: |
+      Проверка поиска товара по категории
+    status: pass
+    
+  - summary: |
+      Проверка фильтрации товаров по одному бренду
+    status: pass
+    
+  - summary: |
+      Проверка фильтрации товаров по цене
+    status: pass
+    
+  - summary: |
+      Проверка фильтрации товаров по двум брендам и по цене
+    status: pass
+    
+  - summary: |
+      Просмотр товаров на странице
+    status: pass
+    
+  - summary: |
+      Просмотр подробной информации о товаре
+    status: pass
+    
+  - summary: |
+      Просмотр корзины
+    status: pass
+    
+  - summary: |
+      Удобство использования
+    status: pass
+    
+  - summary: |
+      Проверка скорости работы
+    status: pass
+    
+  - summary: |
+      Вывод сообщения при отсутствии подключения к сети
+    status: fail
+    
+  - summary: |
+      Проверка безопасности
+    status: fail
+    
+  - summary: |
+      Cовместимость с Google Chrome 125
+    status:  pass
+    
+  - summary: |
+      Cовместимость с Google Chrome 124
+    status: pass
+    
+  - summary: |
+      Cовместимость с Safari 17.5
+    status: pass
+    
+  - summary: |
+      Cовместимость с Safari 17.3
+    status: pass
+    
+  - summary: |
+      Cовместимость с Firefox 126
+    status: pass
+    
+  - summary: |
+      Cовместимость с Firefox 125
+    status: pass
+    
+  - summary: |
+      Доступность на смартфоне iPhone 14 Pro Max
+    status: pass
+    
+  - summary: |
+      Доступность на планшете iPad Pro
+    status: pass
+    
+  - summary: |
+      Форма регистрации
+    status: fail
+    
+  - summary: |
+      Успешная регистрация пользователя
+    status: fail
+    
+  - summary: |
+      Короткое имя пользователя
+    status: fail
+    
+  - summary: |
+      Слишком длинное имя пользователя
+    status: fail
+    
+  - summary: |
+      Проверка пароля
+    status: fail
+    
+  - summary: |
+      Проверка совпадает ли пароли и подтверджение пароля
+    status: fail
+    
+  - summary: |
+      Форма регистрации, ввод с ошибкой, страница не перезагружается
+     status: fail
+     
+  - summary: |
+      Форма входа
+    status: fail
+    
+  - summary: |
+      Успешный вход пользователя
+    status: fail
+    
+  - summary: |
+      Форма входа, ввод с ошибкой
+    status: fail
+    
+  - summary: |
+      Форма входа, ввод с ошибкой, страница не перезагружается
+    status: fail
+    
+  - summary: |
+      Запоминать авторизованного пользователя
+    status: fail
+    
+  - summary: |
+      Выбор всех категорий/отмена выбранной категории
+    status: fail
+    
+  - summary: |
+      Выбор количества  товара в корзине
+    status: fail
+  - summary: |
+      Краткое описание тест-кейса. Например, проверка входа пользователя с существующими логином и паролем
+    status: fail
+
+bugreports:
+  - summary: |
+      Короткое описание ошибки
+    environment: |
+      Ссылка на билд/коммит/версия ПО и всего окружения
+    steps-to-reproduce: |
+      Полный перечень шагов для воспроизведения и описание, на каком шаге произошла ошибка
+    expected-result: |
+      Какой результат должен был быть без ошибки
+    actual-result: |
+      Какой результат получился на самом деле
