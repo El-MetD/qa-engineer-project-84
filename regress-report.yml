@@ -25,59 +25,39 @@ test-cases:
     status: pass
         
   - summary: |
-      Просмотр товаров на странице
+      Проверка открытия карточки товара
     status: pass
     
   - summary: |
-      Просмотр подробной информации о товаре
+      Проверка добавления товара в корзину
     status: pass
-    
+ 
   - summary: |
-      Просмотр корзины
-    status: pass
-    
-  - summary: |
-      Удобство использования
-    status: pass
-    
-  - summary: |
-      Проверка скорости работы
-    status: pass
-    
-  - summary: |
-      Вывод сообщения при отсутствии подключения к сети
-    status: fail
-    
-  - summary: |
-      Перевод языка
+      Проверка смены локали на русский
     status: pass
 
   - summary: |
-      Отображение иконок флагов английского и русского языков
-    status: fail
-  
-  - summary: |
-      Cовместимость с Google Chrome 125
+      Cовместимость с Google Chrome LV
     status:  pass
     
   - summary: |
-      Cовместимость с Google Chrome 124
+      Cовместимость с Google Chrome PV
     status: pass
     
   - summary: |
-      Cовместимость с Safari 17.5
+      Cовместимость с Safari LV
     status: pass
     
   - summary: |
-      Cовместимость с Safari 17.3
+      Cовместимость с Safari PV
     status: pass
     
   - summary: |
-      Cовместимость с Firefox 126
+      Cовместимость с Firefox LV
     status: pass
     
   - summary: |
-      Cовместимость с Firefox 125
+      Cовместимость с Firefox PV
     status: pass
     
   - summary: |
@@ -93,23 +73,15 @@ test-cases:
     status: pass
     
   - summary: |
-      Выбор количества  товара в корзине
+      Выбор количества товара в корзине
+    status: fail
+
+  - summary: |
+      Оформление заказа
     status: fail
 
 bugreports:
-  - summary: |
-      Отсутвствует сообщение об отсутствии подключения к сети
-    environment: |
-      Версия 125.0.6422.113 (Официальная сборка), (64 бит)
-      ОС Windows 10 Pro версия 22H2 (сборка ОС 19045.4412)
-    steps-to-reproduce: |
-      1. Открыть в инструментах разработчика вкладку Network
-      2. Выбрать тип подключения Offline
-    expected-result: |
-      Выводится сообщение об отсутствии подключения к интернету
-    actual-result: |
-      Выводится сообщение об отсутствии подключения к интернету от браузера
-  
+
   - summary: |
       Нельзя выбрать количество товара в корзине
     environment: |
